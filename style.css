@@ -245,9 +245,8 @@ footer p{
         padding: 2%;
         justify-content: center;
         align-items: center;
-        margin-top: 5%;
+        margin-top: 10%;
         box-sizing: border-box;
-        gap: 20px;
     }
     .img2{
         width: 100%;
@@ -259,7 +258,7 @@ footer p{
     .button{
         display: grid;
         justify-content: center;
-        width: 30px;
+        width: 40%;
         padding: 2%;
         background-color: rgb(36, 223, 8);
     }
