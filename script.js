@@ -2,16 +2,26 @@ const greet = document.querySelector('.greet')
 
 const date = new Date()
 const hour = date.getHours();
+const day = date.getDate();
 
 if (hour < 12) {
     greet.textContent = 'Good Morning'
-}
-if (hour < 15) {
+}else if (hour < 15) {
     greet.textContent = 'Good Day'
-}
-if (hour < 19) {
+}else if (hour < 19) {
     greet.textContent = 'Good Evening'
-}
-if (hour < 24 ) {
+}else {
     greet.textContent = 'Good Night'
 }
+if (day == 355) { 
+    greet.textContent = 'Merry Christmas'
+}
+
+// if (condition) {
+    
+// } elseif {
+    
+// }
+
+const ate = new Date();
+document.querySelector('.year').innerHTML = ate.getFullYear();
