@@ -1,8 +1,11 @@
 *{
-    margin: 0 auto;
-    /* box-sizing: border-box; */
+    margin: 0;
+    box-sizing: border-box;
 }
 
+body{
+    margin: 0;
+}
 .li {
     background-color: blueviolet;
 }
@@ -22,12 +25,12 @@ li{
     text-align: center;
 }
 a{
-    text-decoration: none;
-    color: black;
+    text-decoration: none !important;
+    color: black !important;
 }
 
 .intro{
-    display: grid;
+    display: grid !important;
     grid-template-columns: 50% 50%;
     justify-content: center;
     align-items: center;
@@ -42,15 +45,15 @@ a{
     border-radius: 5px;
 }
 
- .img1{
+.img1{
     width: 50%;
     border: 2px solid blue;
     border-radius: 40%;
 }
 .enjoyed{
-    display: grid;
-    justify-content: center;
-    align-items: center;
+    display: grid !important;
+    justify-content: center !important;
+    align-items: center !important;
 }
 .project{
     display: grid;
@@ -60,8 +63,9 @@ a{
     border-radius: 3%;
 }
 .grid{
-    display: grid;
+    display: grid !important;
     grid-template-columns: 50% 50%;
+    row-gap: 30px;
     width: 100%;
     padding: 2%;
     justify-content: center;
@@ -201,52 +205,52 @@ footer p{
     }
     
     .intro{
-        display: block;
-        grid-template-columns: 50% 50%;
-        justify-content: center;
-        align-items: center;
-        margin: 10%;
+        display: block !important;
+        grid-template-columns: 50% 50% !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: 10% !important;
     }
     .center{
-        display: inline;
-        width: 40%;
-        height: 30px;
-        background-color: rgb(36, 223, 8);
-        border: 1px rgb(128, 224, 149);
-        border-radius: 5px;
+        display: inline !important;
+        width: 40% !important;
+        height: 30px !important;
+        background-color: rgb(36, 223, 8) !important;
+        border: 1px rgb(128, 224, 149) !important;
+        border-radius: 5px !important;
     }
     .none1{
-        display: block;
+        display: block !important;
     }
     .none2 img{
-        display: none;
-        width: 100%;
+        display: none !important;
+        width: 100% !important;
     }    
      .img1{
-        width: 50%;
-        border: 2px solid blue;
-        border-radius: 40%;
+        width: 50% !important;
+        border: 2px solid blue !important;
+        border-radius: 40% !important;
     }
     .enjoyed{
-        display: grid;
-        justify-content: center;
-        align-items: center;
+        display: grid !important;
+        justify-content: center !important;
+        align-items: center !important;
     }
     .project{
-        display: grid;
-        margin: 10%;
-        background-color: rgba(221, 216, 203, 0.945);
-        border: 4px solid rgb(87, 243, 103);
-        border-radius: 3%;
+        display: grid !important;
+        margin: 10% !important;
+        background-color: rgba(221, 216, 203, 0.945) !important;
+        border: 4px solid rgb(87, 243, 103) !important;
+        border-radius: 3% !important;
     }
     .grid{
-        display: block;
-        width: 100%;
-        padding: 2%;
-        justify-content: center;
-        align-items: center;
-        margin-top: 10%;
-        box-sizing: border-box;
+        display: block !important;
+        width: 100% !important;
+        padding: 2% !important;
+        justify-content: center !important;
+        align-items: center !important;
+        row-gap: 50px !important;
+        box-sizing: border-box !important;
     }
     .img2{
         width: 100%;
@@ -302,9 +306,8 @@ footer p{
     }
     
     .ul{
-        display: flex;
-        flex-direction: column;
-        /* grid-template-columns: 1fr; */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         justify-content: center;
         align-items: center;
         /* justify-content: start; */

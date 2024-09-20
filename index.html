@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
 </head>
 <body>
-    <h2></h2>
+    <!-- <h2></h2> -->
 
-    <ul class="ul1">
+    <!-- <ul class="ul1">
         <li class="dropdown"><a href="">David</a></li>
         <li class="li2"><a href="">Services</a></li>
         <li class="li2"><a href="">Testimonials</a></li>
@@ -19,7 +20,69 @@
         <li class="li2"> <a href="https://x.com/OnwuakpaD50" target="https://x.com/OnwuakpaD50"><i class="fab fa-twitter"></i></a></li>      
         <li class="li2"> <a href="https://www.instagram.com/onwuakpadavid/" target="https://www.instagram.com/onwuakpadavid/"><i class="fab fa-instagram"></i></a></li>      
         <li class="greet"></li>      
-    </ul>
+    </ul> -->
+    <!-- Simple Navbar -->
+    <nav
+    class="navbar navbar-expand-md bg-primary position-sticky top-0"
+    >
+    <div class="container">
+        <a class="navbar-brand" href="#">DEO</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        > <span class="navbar-toggler-icon"></span></button>
+         <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#" aria-current="page"
+                >Home <span class="visually-hidden">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="dropdownId"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Dropdown</a
+              >
+              <div class="dropdown-menu bs" aria-labelledby="dropdownId">
+                <a class="dropdown-item" href="#">Action 1</a>
+                <a class="dropdown-item" href="#">Action 2</a>
+              </div>
+            </li>
+            <li class=" nav-item">
+              <a href="#" class="nav-link">Services</a>
+            </li>
+            <li class=" nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <!-- <li class="li2"><a href="https://web.facebook.com/profile.php?id=61559949221536" target="https://web.facebook.com/profile.php?id=61559949221536"><i class="fab fa-facebook-f"></i></a></li>      
+            <li class="li2"> <a href="https://x.com/OnwuakpaD50" target="https://x.com/OnwuakpaD50"><i class="fab fa-twitter"></i></a></li>      
+            <li class="li2"> <a href="https://www.instagram.com/onwuakpadavid/" target="https://www.instagram.com/onwuakpadavid/"><i class="fab fa-instagram"></i></a></li>       -->
+            <!-- <li class=" nav-item"><a href="#" class="nav-link" id="greet"></a></li>       -->
+        </ul>
+            <!-- <form class="d-flex my-2 my-lg-0">
+                <input
+              class="form-control me-sm-2"
+              type="text"
+              placeholder="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form> -->
+        </div>
+
+        </div>
+      </nav>
 
     <div class="intro">
         <div class="like">
@@ -28,7 +91,7 @@
             <h1>It's Time for a Switch-Up</h1>
             <h3>You can focus on running your business while I <br>focus on growing it.</h3>
             <br>
-            <button class="center"><a href="">GET STARTED</a></button>
+            <button class="center m-auto"><a href="">GET STARTED</a></button>
         </div>
         <div>
             <img src="./img/20240528_144150.jpg" alt="" class="img1">
@@ -37,8 +100,8 @@
     </div>
 
     <div class="project">
-        <div class="enjoyed">
-            <h2>Several Project I Enjoyed</h2>
+        <div class="enjoyed mt-5">
+            <h2 class=" m-auto">Several Project I Enjoyed</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda officia aliquam ab facere, id corrupti eligendi!</p>
         </div>
          <div class="grid">
@@ -46,22 +109,24 @@
                  <img src="./img/flixx movie.JPG" alt="" width="90%" class="img2">
              </div>
             <div>
-                <h3 class="h3">Flixx Movie </h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nemo consectetur recusandae voluptatum nulla et harum, totam enim esse, aspernatur molestiae placeat consequuntur nisi vitae dolorem sit alias quia quasi.</p>
-                <em>Design + code + movie</em>
+                <h3 class="h3 mt-3">Flixx Movie </h3>
+                <p class=" mx-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nemo consectetur recusandae voluptatum nulla et harum, totam enim esse, aspernatur molestiae placeat consequuntur nisi vitae dolorem sit alias quia quasi.</p>
+                <em class=" mx-3">Design + code + movie</em>
                 <br>
-                <button class="button"><a href="https://flix-movie-app-by-david.netlify.app">VISIT PROJECT</a></button>
+                <button class="button m-auto"><a href="https://flix-movie-app-by-david.netlify.app">VISIT PROJECT</a></button>
             </div>
             <br class="none1">
             <div class = "none1">
                 <img src=".//img/shopping list8.JPG" alt="" width="90%" height="2%"  class="img2">
             </div>
             <div>
-                <h3 class="h3">Shopping list</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nemo consectetur recusandae voluptatum nulla et harum, totam enim esse, aspernatur molestiae placeat consequuntur nisi vitae dolorem sit alias qui a quasi.</p>
-                <em>Design + code + marketing</em>
+                <h3 class="h3 mt-3">Shopping list</h3>
+                <p class=" mx-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nemo consectetur recusandae voluptatum nulla et harum, totam enim esse, aspernatur molestiae placeat consequuntur nisi vitae dolorem sit alias qui a quasi.</p>
+                <em class=" mx-3">Design + code + marketing</em>
                 <br>
-                <button class="button"><a href="https://shoppinglist78.netlify.app">VISIT PROJECT</a></button>
+                <button class="button m-auto">
+                    <a href="https://shoppinglist78.netlify.app">VISIT PROJECT</a>
+                </button>
             </div>
             <div class="none2">
                 <img src=".//img/shopping list8.JPG" alt="" width="80%" height="100%"  class="img2">
@@ -71,11 +136,11 @@
                 <img src="./img/chuck-norris7.JPG" alt="" width="90%" height="50%"  class="img2">
             </div>
             <div>
-                <h3 class="h3">Chuck Norris Jokes</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nemo consectetur recusandae voluptatum nulla et harum, totam enim esse, aspernatur molestiae placeat consequuntur nisi vitae dolorem sit alias quia quasi.</p>
-                <em>Design + code + jokes</em>
+                <h3 class="h3 mt-3">Chuck Norris Jokes</h3>
+                <p class=" mx-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nemo consectetur recusandae voluptatum nulla et harum, totam enim esse, aspernatur molestiae placeat consequuntur nisi vitae dolorem sit alias quia quasi.</p>
+                <em class=" mx-3">Design + code + jokes</em>
                 <br>
-                <button class="button"><a href="https://chuck-norris-jokes-by-david.netlify.app">VISIT PROJECT</a></button>
+                <button class="button m-auto"><a href="https://chuck-norris-jokes-by-david.netlify.app">VISIT PROJECT</a></button>
             </div>
 
         </div>
@@ -89,7 +154,7 @@
             <br> <br>
             <input type="text" placeholder="Your Question" >
             <br> <br>
-            <button class="send"><a href="">SEND</a></button> 
+            <button class="send m-auto"><a href="">SEND</a></button> 
         </form>
     </div>
     
@@ -106,10 +171,11 @@
         <br>
         <div class="copy">
              Copyright &copy;
-            <span class="year"></span>
+            <span id="year"></span>
         </div>
     </footer>
 
     <script src="script.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

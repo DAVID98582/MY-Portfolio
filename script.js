@@ -1,4 +1,4 @@
-const greet = document.querySelector('.greet')
+const greet = document.querySelector('#greet')
 
 const date = new Date()
 const hour = date.getHours();
@@ -23,5 +23,5 @@ if (day == 355) {
     
 // }
 
-const ate = new Date();
-document.querySelector('.year').innerHTML = ate.getFullYear();
+const year = new Date();
+document.querySelector('#year').innerHTML = year.getFullYear();
